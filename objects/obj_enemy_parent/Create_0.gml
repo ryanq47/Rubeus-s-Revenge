@@ -6,3 +6,6 @@ alarm[0] = 60;
 
 tilemap = layer_tilemap_get_id("tiles_collision")
 
+//knockback
+kb_x = 0;
+kb_y = 0;

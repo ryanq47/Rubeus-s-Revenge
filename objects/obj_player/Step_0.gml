@@ -20,6 +20,9 @@ if (_hor !=0 or _ver !=0){
         
     else if (_hor < 0) sprite_index = rubeus_idle_down;
         
+    //remebers where player was moving to create sword in that direction
+    facing = point_direction(0,0,_hor,_ver);
+        
 }
 
 else {
@@ -30,4 +33,17 @@ else {
     if (sprite_index == rubeus_idle_down) sprite_index = rubeus_idle_down;
     
     if (sprite_index == rubeus_idle_down) sprite_index = rubeus_idle_down;
+}
+
+//attacking
+
+if (keyboard_check_pressed(vk_space) || mouse_check_button_pressed(mb_left)) {
+    // Create an object at the player's position
+    var _inst = instance_create_depth(x, y, depth, obj_weapon_sword);
+    
+    // Set the sword's direction towards the mouse
+    _inst.image_angle = point_direction(x, y, mouse_x, mouse_y);
+    
+    // Adjust damage (if needed)
+    _inst.damage *= damage;
 }
