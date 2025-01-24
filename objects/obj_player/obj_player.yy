@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite22",
-    "path":"sprites/Sprite22/Sprite22.yy",
+    "name":"rubeus_idle_down",
+    "path":"sprites/rubeus_idle_down/rubeus_idle_down.yy",
   },
   "spriteMaskId":null,
   "visible":true,
