@@ -47,3 +47,9 @@ if (keyboard_check_pressed(vk_space) || mouse_check_button_pressed(mb_left)) {
     // Adjust damage (if needed)
     _inst.damage *= damage;
 }
+
+if (instance_number(obj_enemy_1) == 0) {
+    show_message("Room Complete!");
+    room_goto(room_2)
+    // Or trigger next level, open door, etc.
+}

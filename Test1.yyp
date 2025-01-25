@@ -41,7 +41,8 @@
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"obj_weapon_gun","path":"objects/obj_weapon_gun/obj_weapon_gun.yy",},},
     {"id":{"name":"obj_weapon_sword","path":"objects/obj_weapon_sword/obj_weapon_sword.yy",},},
-    {"id":{"name":"development_room","path":"rooms/development_room/development_room.yy",},},
+    {"id":{"name":"room_1","path":"rooms/room_1/room_1.yy",},},
+    {"id":{"name":"room_2","path":"rooms/room_2/room_2.yy",},},
     {"id":{"name":"background_music","path":"sounds/background_music/background_music.yy",},},
     {"id":{"name":"rubeus_idle_down_1","path":"sprites/rubeus_idle_down_1/rubeus_idle_down_1.yy",},},
     {"id":{"name":"rubeus_idle_down","path":"sprites/rubeus_idle_down/rubeus_idle_down.yy",},},
@@ -66,7 +67,8 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"development_room","path":"rooms/development_room/development_room.yy",},},
+    {"roomId":{"name":"room_1","path":"rooms/room_1/room_1.yy",},},
+    {"roomId":{"name":"room_2","path":"rooms/room_2/room_2.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
