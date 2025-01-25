@@ -20,3 +20,5 @@ for (var i = 0; i < 1; i++) {
     var offset_y = y - lengthdir_y(trail_offset + i, image_angle);  // Slightly increase offset for each particle
     part_particles_create(particle_system, offset_x, offset_y, particle_type, 1);  // Emit particles in a stream
 }
+
+
