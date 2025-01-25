@@ -40,6 +40,7 @@
     {"id":{"name":"room_base_Child_0","path":"rooms/room_base_Child_0/room_base_Child_0.yy",},},
     {"id":{"name":"room_base_Child_1","path":"rooms/room_base_Child_1/room_base_Child_1.yy",},},
     {"id":{"name":"room_base","path":"rooms/room_base/room_base.yy",},},
+    {"id":{"name":"misc_krabs_walking","path":"sounds/misc_krabs_walking/misc_krabs_walking.yy",},},
     {"id":{"name":"spr_bubblegun_bullet","path":"sprites/spr_bubblegun_bullet/spr_bubblegun_bullet.yy",},},
     {"id":{"name":"spr_enemy_germ_idle","path":"sprites/spr_enemy_germ_idle/spr_enemy_germ_idle.yy",},},
     {"id":{"name":"spr_floor_wood","path":"sprites/spr_floor_wood/spr_floor_wood.yy",},},
