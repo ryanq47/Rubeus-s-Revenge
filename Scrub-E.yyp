@@ -35,6 +35,7 @@
   "name":"Scrub-E",
   "resources":[
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
+    {"id":{"name":"obj_stairs","path":"objects/obj_stairs/obj_stairs.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"spr_enemy_germ_idle","path":"sprites/spr_enemy_germ_idle/spr_enemy_germ_idle.yy",},},
     {"id":{"name":"spr_player_death","path":"sprites/spr_player_death/spr_player_death.yy",},},
@@ -43,6 +44,7 @@
     {"id":{"name":"spr_player_idle_shooting","path":"sprites/spr_player_idle_shooting/spr_player_idle_shooting.yy",},},
     {"id":{"name":"spr_player_walking","path":"sprites/spr_player_walking/spr_player_walking.yy",},},
     {"id":{"name":"spr_player_walking_shooting","path":"sprites/spr_player_walking_shooting/spr_player_walking_shooting.yy",},},
+    {"id":{"name":"spr_stairs","path":"sprites/spr_stairs/spr_stairs.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
