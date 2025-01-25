@@ -15,6 +15,7 @@ move_and_collide(_hor * move_speed, _ver * move_speed, tilemap)
 //sprint stuff
 
 if (_hor !=0 or _ver !=0){
+
     if (_ver > 0) sprite_index = spr_player_walking;
         
     else if (_ver < 0) sprite_index = spr_player_walking;
@@ -64,3 +65,4 @@ if (keyboard_check_pressed(vk_space) || mouse_check_button_pressed(mb_left)) {
 
     
 }
+

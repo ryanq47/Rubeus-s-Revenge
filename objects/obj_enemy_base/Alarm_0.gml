@@ -1,5 +1,5 @@
 // =======================
-// Turn Red, and dissapear timer
+// On Death/dissapear timer
 // =======================
 //image_alpha = 0.5
 
