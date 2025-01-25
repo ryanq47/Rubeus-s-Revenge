@@ -34,6 +34,7 @@
   },
   "name":"Scrub-E",
   "resources":[
+    {"id":{"name":"obj_bubblegun_area","path":"objects/obj_bubblegun_area/obj_bubblegun_area.yy",},},
     {"id":{"name":"obj_bubblegun","path":"objects/obj_bubblegun/obj_bubblegun.yy",},},
     {"id":{"name":"obj_enemy_base","path":"objects/obj_enemy_base/obj_enemy_base.yy",},},
     {"id":{"name":"obj_enemy_testing","path":"objects/obj_enemy_testing/obj_enemy_testing.yy",},},
