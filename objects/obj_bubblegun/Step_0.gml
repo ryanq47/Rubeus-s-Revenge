@@ -1,6 +1,6 @@
 // Step Event
-x += lengthdir_x(speed, facing);  // Move in the direction based on facing
-y += lengthdir_y(speed, facing);
+x += lengthdir_x(projectile_speed, facing);  // Move in the direction based on facing
+y += lengthdir_y(projectile_speed, facing);
 
 
 //=============
@@ -10,8 +10,8 @@ y += lengthdir_y(speed, facing);
 //var speed = 10;  // Adjust as needed
 
 // Move the bubble in the direction of the mouse
-x += lengthdir_x(speed, image_angle);
-y += lengthdir_y(speed, image_angle);
+x += lengthdir_x(projectile_speed, image_angle);
+y += lengthdir_y(projectile_speed, image_angle);
 
 // Emit multiple particles behind the bubble to create a stream of small bubbles
 var trail_offset = 15;  // Distance behind the bubble where particles are created

@@ -27,7 +27,9 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[],
+  "properties":[
+    {"$GMObjectProperty":"v1","%Name":"player_weapon","filters":[],"listItems":[],"multiselect":false,"name":"player_weapon","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"obj_bubblegun","path":"objects/obj_bubblegun/obj_bubblegun.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"obj_bubblegun","varType":5,},
+  ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,

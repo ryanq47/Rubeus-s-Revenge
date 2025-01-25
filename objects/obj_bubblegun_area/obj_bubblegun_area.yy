@@ -32,10 +32,10 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":false,
+  "solid":true,
   "spriteId":{
-    "name":"spr_bubblegun_bullet",
-    "path":"sprites/spr_bubblegun_bullet/spr_bubblegun_bullet.yy",
+    "name":"spr_bubblegun_area_bullet",
+    "path":"sprites/spr_bubblegun_area_bullet/spr_bubblegun_area_bullet.yy",
   },
   "spriteMaskId":null,
   "visible":true,

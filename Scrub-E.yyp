@@ -44,6 +44,7 @@
     {"id":{"name":"room_base_Child_1","path":"rooms/room_base_Child_1/room_base_Child_1.yy",},},
     {"id":{"name":"room_base","path":"rooms/room_base/room_base.yy",},},
     {"id":{"name":"movement_walking_mrkrabs","path":"sounds/movement_walking_mrkrabs/movement_walking_mrkrabs.yy",},},
+    {"id":{"name":"spr_bubblegun_area_bullet","path":"sprites/spr_bubblegun_area_bullet/spr_bubblegun_area_bullet.yy",},},
     {"id":{"name":"spr_bubblegun_bullet_explosion","path":"sprites/spr_bubblegun_bullet_explosion/spr_bubblegun_bullet_explosion.yy",},},
     {"id":{"name":"spr_bubblegun_bullet","path":"sprites/spr_bubblegun_bullet/spr_bubblegun_bullet.yy",},},
     {"id":{"name":"spr_enemy_germ_idle","path":"sprites/spr_enemy_germ_idle/spr_enemy_germ_idle.yy",},},
