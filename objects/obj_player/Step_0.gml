@@ -25,33 +25,42 @@ if (_hor !=0 or _ver !=0){
         
 }
 
-else {
-    sprite_index = spr_player_idle;
-        
-
-}
+//else {
+//    sprite_index = spr_player_idle;
+//        
+//}
 
 // ==================
 //Attacking
 // ==================
 
+//todo:
+// Fix Collision Bug where it's colliding with itself
+
 if (keyboard_check_pressed(vk_space) || mouse_check_button_pressed(mb_left)) {
 
-    // Set the animation speed to 0.5 (slows down the animation)
-    sprite_index = spr_player_idle_shooting;
+
+    if (alarm[0] < 0) {
+        // Set the animation speed to 0.5 (slows down the animation)
+        sprite_index = spr_player_idle_shooting;
+        
+        // Create an object at the player's position
+        var _inst = instance_create_depth(x, y, depth, obj_bubblegun); //obj_weapon_sword
+
+        // Scale bubbles down
+        _inst.image_xscale = 0.35;
+        _inst.image_yscale = 0.35;
+        
+        // Set the bubble object's direction towards the mouse
+        _inst.image_angle = point_direction(x, y, mouse_x, mouse_y);
     
+        // Adjust damage (if needed)
+        //_inst.damage *= damage; 
+
+        alarm[0] = 15;
+        
+        
+    }
 
     
-    // Create an object at the player's position
-    var _inst = instance_create_depth(x, y, depth, obj_bubblegun); //obj_weapon_sword
-
-    // Scale bubbles down
-    _inst.image_xscale = 0.35;
-    _inst.image_yscale = 0.35;
-    
-    // Set the bubble object's direction towards the mouse
-    _inst.image_angle = point_direction(x, y, mouse_x, mouse_y);
-
-    // Adjust damage (if needed)
-    //_inst.damage *= damage;
 }
