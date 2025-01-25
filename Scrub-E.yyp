@@ -36,8 +36,9 @@
   "resources":[
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"obj_stairs","path":"objects/obj_stairs/obj_stairs.yy",},},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"room_base","path":"rooms/room_base/room_base.yy",},},
     {"id":{"name":"spr_enemy_germ_idle","path":"sprites/spr_enemy_germ_idle/spr_enemy_germ_idle.yy",},},
+    {"id":{"name":"spr_floor_wood","path":"sprites/spr_floor_wood/spr_floor_wood.yy",},},
     {"id":{"name":"spr_player_death","path":"sprites/spr_player_death/spr_player_death.yy",},},
     {"id":{"name":"spr_player_idle","path":"sprites/spr_player_idle/spr_player_idle.yy",},},
     {"id":{"name":"spr_player_idle_attack_heavy","path":"sprites/spr_player_idle_attack_heavy/spr_player_idle_attack_heavy.yy",},},
@@ -49,7 +50,7 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"room_base","path":"rooms/room_base/room_base.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
