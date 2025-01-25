@@ -15,4 +15,4 @@ else {
 }
 
 //re prime
-alarm[1] = 60
+alarm[1] = 60;

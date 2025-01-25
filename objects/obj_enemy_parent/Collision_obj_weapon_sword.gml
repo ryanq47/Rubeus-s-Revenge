@@ -1,5 +1,7 @@
 //damage for sword
 
+show_message("TEST");
+
 if (alarm[1] < 0){
     //other is the instance of the swod
     hp -= other.damage;

@@ -1,13 +1,13 @@
 //step is updated each step
 
 // 1 when D, -1 when A is held
-var _hor = keyboard_check(ord("D")) - keyboard_check(ord("A"))
+var _hor = keyboard_check(ord("D")) - keyboard_check(ord("A"));
 
 // 1 when D, -1 when A is held
-var _ver = keyboard_check(ord("S")) - keyboard_check(ord("W"))
+var _ver = keyboard_check(ord("S")) - keyboard_check(ord("W"));
 
 
-move_and_collide(_hor * move_speed, _ver * move_speed, tilemap)
+move_and_collide(_hor * move_speed, _ver * move_speed, tilemap);
 
 //sprint stuff
 //spr_player_walk_down
@@ -50,7 +50,7 @@ if (keyboard_check_pressed(vk_space) || mouse_check_button_pressed(mb_left)) {
 
 if (instance_number(obj_enemy_1) == 0) {
     //show_message("Room Complete!");
-    room_goto(room_2)
+    room_goto(room_2);
     // Or trigger next level, open door, etc.
 }
 
