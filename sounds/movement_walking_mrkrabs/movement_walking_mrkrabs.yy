@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"misc_krabs_walking",
+  "%Name":"movement_walking_mrkrabs",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -10,7 +10,7 @@
   "compression":0,
   "conversionMode":0,
   "duration":60.36898,
-  "name":"misc_krabs_walking",
+  "name":"movement_walking_mrkrabs",
   "parent":{
     "name":"Sounds",
     "path":"folders/Sounds.yy",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"misc_krabs_walking.mp3",
+  "soundFile":"movement_walking_mrkrabs.mp3",
   "type":0,
   "volume":1.0,
 }
