@@ -5,6 +5,8 @@ image_angle = facing; // Rotate the projectile based on facing direction
 projectile_speed = 10;
 projectile_damage = 15;
 
+
+
 //for collision:
 // Collision with enemy
 //if (collision_point(x, y, obj_enemy_parent, true, true)) {

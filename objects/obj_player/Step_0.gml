@@ -79,7 +79,7 @@ if (keyboard_check(vk_space)) {  // Check if the space key is held
         _inst.image_angle = point_direction(x, y, mouse_x, mouse_y);
         _inst.speed = 1.25;
 
-        alarm[0] = 15;  // Reset the alarm timer
+        alarm[0] = 30;  // Reset the alarm timer
     }
 }
 
