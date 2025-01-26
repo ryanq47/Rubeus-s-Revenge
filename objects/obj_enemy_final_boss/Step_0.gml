@@ -16,7 +16,7 @@ if (random(1) < 0.05) {
 // ================
 // Follow function: if object exists and is within the value of distance_to_player, follow
 if (instance_exists(obj_player) && distance_to_object(obj_player) < distance_to_player) {
-    move_speed = 0.4;
+    move_speed = attack_player_move_speed;//0.3;
     target_x = obj_player.x;
     target_y = obj_player.y;
     // If near player, increase move speed
@@ -53,31 +53,54 @@ if (alarm[2] <= 0 ) {
     // Set the bubble object's direction towards the player
     //WHY IS IT NOT AIMING AT PLAYER?? IT WAS WORKING
     _inst.image_angle = point_direction(x, y, obj_player.x, obj_player.y);
-    alarm[2] = 120
+    alarm[2] = 30; //how often to shoot
     
 }
 
 
-// rapid fire - kinda borked. If less that 60, shoot each tick.
+// ===========
+// Mob Spawn
+// ===========
 if (alarm[3] <= 60 ) {
 
-        var _inst = instance_create_depth(x, y+30, depth, obj_enemy_testing); //obj_weapon_sword
-    
-        _inst.image_xscale = 0.5;
-        _inst.image_yscale = 0.5;
+        for (var i = 0; i < 3; i += 1) {
             
-        // Set the bubble object's direction towards the player
-        //WHY IS IT NOT AIMING AT PLAYER?? IT WAS WORKING
-        //_inst.image_angle = point_direction(x, y, obj_player.x, obj_player.y);
         
-        alarm[3] = 360
+            var _inst = instance_create_depth(x-50, y - (i * 25), depth, obj_enemy_testing); //obj_weapon_sword
+        
+            _inst.image_xscale = 0.5;
+            _inst.image_yscale = 0.5;
+            _inst.distance_to_player = 200; // make it follow player up to 200 pixels away, and "attack" player on spawn
+                
+            // Set the bubble object's direction towards the player
+            //WHY IS IT NOT AIMING AT PLAYER?? IT WAS WORKING
+            //_inst.image_angle = point_direction(x, y, obj_player.x, obj_player.y);
+            
+            alarm[3] = 360
+    }
     
 
 }
 
 
+//if (hp <= 500) {
+//    audio_play_sound(sfx_plankton, 10, false);
+//    //room_goto(set_win_screen);
+//
+//    
+//}
+
+// ==================
+// DEATH EVENT
+// ==================
+
 if (hp <= 0) {
-    room_goto(set_win_screen)
+    audio_stop_all();
+    audio_play_sound(sfx_boss_explosion, 10, false)
+    sprite_index = spr_fx_explosion;
+    //audio_play_sound(sfx_plankton, 10, false);
+    //room_goto(set_win_screen);
+
     
 }
 
