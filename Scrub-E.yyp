@@ -54,6 +54,7 @@
     {"id":{"name":"room_base","path":"rooms/room_base/room_base.yy",},},
     {"id":{"name":"room_base","path":"rooms/room_base/room_base.yy",},},
     {"id":{"name":"set_title_screen","path":"rooms/set_title_screen/set_title_screen.yy",},},
+    {"id":{"name":"set_win_screen","path":"rooms/set_win_screen/set_win_screen.yy",},},
     {"id":{"name":"set_you_died","path":"rooms/set_you_died/set_you_died.yy",},},
     {"id":{"name":"movement_walking_mrkrabs","path":"sounds/movement_walking_mrkrabs/movement_walking_mrkrabs.yy",},},
     {"id":{"name":"music_cave_jam","path":"sounds/music_cave_jam/music_cave_jam.yy",},},
@@ -89,6 +90,7 @@
     {"id":{"name":"spr_ui_game_title","path":"sprites/spr_ui_game_title/spr_ui_game_title.yy",},},
     {"id":{"name":"spr_ui_start_game","path":"sprites/spr_ui_start_game/spr_ui_start_game.yy",},},
     {"id":{"name":"spr_ui_you_died","path":"sprites/spr_ui_you_died/spr_ui_you_died.yy",},},
+    {"id":{"name":"spr_ui_you_win","path":"sprites/spr_ui_you_win/spr_ui_you_win.yy",},},
     {"id":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},},
   ],
   "resourceType":"GMProject",
@@ -104,6 +106,7 @@
     {"roomId":{"name":"set_you_died","path":"rooms/set_you_died/set_you_died.yy",},},
     {"roomId":{"name":"room_base_Child_0","path":"rooms/room_base_Child_0/room_base_Child_0.yy",},},
     {"roomId":{"name":"room_base_boss_room","path":"rooms/room_base_boss_room/room_base_boss_room.yy",},},
+    {"roomId":{"name":"set_win_screen","path":"rooms/set_win_screen/set_win_screen.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
