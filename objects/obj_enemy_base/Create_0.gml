@@ -17,4 +17,4 @@ target_y = y;
 max_hp = 20
 hp = 20;
 damage = 1;
-move_speed = .5;
+move_speed = 0.5;
