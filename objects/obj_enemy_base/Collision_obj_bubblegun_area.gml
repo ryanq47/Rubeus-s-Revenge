@@ -4,11 +4,17 @@
 
 //bug: projectile re-hits enemy. Maybe keep as feature, OR one hit per second?
 
-alarm[0] = 10;
+//alarm[0] = 10;
 
 //show_message("HIT");
 hp = hp - other.projectile_damage;
 image_blend = c_white;
 obj_enemy_base.move_speed = .1;
+
+
+if (hp <= 0) {
+    instance_destroy();
+    //lpay death sound
+}
 
 //instance_destroy();

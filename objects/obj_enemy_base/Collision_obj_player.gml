@@ -1,2 +1,2 @@
 //placeholder collision w player
-other.image_blend = c_red;
+//other.image_blend = c_red;
