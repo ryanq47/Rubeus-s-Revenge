@@ -6,4 +6,7 @@
 //loop over, lower alpha, delete?
 //or explosion effects
 
-instance_destroy();
+if (hp <= 0) {
+    instance_destroy();
+    //lpay death sound
+}

@@ -14,5 +14,6 @@ tilemap = layer_tilemap_get_id("room_border");
 // [X] add a wander option?
 
 // on collision with player...
-
+max_hp = 20
+hp = 20;
 damage = 1;
