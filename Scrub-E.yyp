@@ -96,7 +96,6 @@
     {"id":{"name":"tile_set_1","path":"tilesets/tile_set_1/tile_set_1.yy",},},
     {"id":{"name":"tile_set_2","path":"tilesets/tile_set_2/tile_set_2.yy",},},
     {"id":{"name":"spr_ui_you_win","path":"sprites/spr_ui_you_win/spr_ui_you_win.yy",},},
-    {"id":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
