@@ -32,3 +32,4 @@ part_type_life(particle_type, 3, 5);  // Set lifespan of the particle
 // Set the particle direction to follow the bubble, with slight spread
 part_type_direction(particle_type, image_angle - 10, image_angle + 10, 0, 0);  // Direction with a slight spread
 part_type_speed(particle_type, 0, 0, 0, 0);  // Set particle speed (adjust as necessary)
+

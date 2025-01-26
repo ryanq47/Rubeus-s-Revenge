@@ -1,4 +1,4 @@
 // ===================
-// Rapid Fire Flame Gun
+// Spawn Enemes
 // Every 2 seconds
 // ===================

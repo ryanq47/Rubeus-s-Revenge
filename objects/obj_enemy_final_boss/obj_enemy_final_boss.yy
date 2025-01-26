@@ -36,8 +36,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_enemy_final_boss",
-    "path":"sprites/spr_enemy_final_boss/spr_enemy_final_boss.yy",
+    "name":"spr_enemy_final_boss_cerberus",
+    "path":"sprites/spr_enemy_final_boss_cerberus/spr_enemy_final_boss_cerberus.yy",
   },
   "spriteMaskId":null,
   "visible":true,

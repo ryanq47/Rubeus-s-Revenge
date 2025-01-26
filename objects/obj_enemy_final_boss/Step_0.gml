@@ -61,19 +61,20 @@ if (alarm[2] <= 0 ) {
 // rapid fire - kinda borked. If less that 60, shoot each tick.
 if (alarm[3] <= 60 ) {
 
-        var _inst = instance_create_depth(x, y, depth, obj_enemy_final_boss_gun); //obj_weapon_sword
+        var _inst = instance_create_depth(x, y+30, depth, obj_enemy_testing); //obj_weapon_sword
     
         _inst.image_xscale = 0.5;
         _inst.image_yscale = 0.5;
             
         // Set the bubble object's direction towards the player
         //WHY IS IT NOT AIMING AT PLAYER?? IT WAS WORKING
-        _inst.image_angle = point_direction(x, y, obj_player.x, obj_player.y);
+        //_inst.image_angle = point_direction(x, y, obj_player.x, obj_player.y);
         
-
+        alarm[3] = 360
     
-    //alarm[3] = 360
+
 }
+
 
 
 
