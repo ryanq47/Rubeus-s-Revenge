@@ -41,6 +41,7 @@ if (_hor !=0 or _ver !=0){
 if ( mouse_check_button_pressed(mb_left)) {
     obj_player.player_weapon = obj_bubblegun;
 
+
     if (alarm[0] < 0) {
         // Set the animation speed to 0.5 (slows down the animation)
         sprite_index = spr_player_idle_shooting;

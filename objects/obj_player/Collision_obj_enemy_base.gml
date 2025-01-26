@@ -1,0 +1,16 @@
+//do damange from other objects damage variable.
+//set on alarm so max one hit per sec?
+
+    
+//reduce hp based on damage
+hp = hp - other.damage;
+//change color 
+image_blend = c_red;
+
+    
+
+
+if hp < 0 {
+    instance_destroy();
+    room_goto(set_you_died);
+}

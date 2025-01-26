@@ -15,4 +15,4 @@ tilemap = layer_tilemap_get_id("room_border");
 
 // on collision with player...
 
-
+damage = 1;
