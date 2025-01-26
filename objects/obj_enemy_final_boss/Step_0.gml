@@ -76,5 +76,11 @@ if (alarm[3] <= 60 ) {
 }
 
 
+if (hp <= 0) {
+    room_goto(set_win_screen)
+    
+}
+
+
 
 
