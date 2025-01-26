@@ -10,7 +10,7 @@ if (mouse_x >= x && mouse_x <= x + button_width && mouse_y >= y && mouse_y <= y 
         audio_play_sound(music_cave_jam, 10, true);
         //room_goto(room_base_Child_0);  // Replace with your action
         room_goto(room_base_Child_0);  // Replace with your action
-    }
+    } 
 } else {
     button_state = "idle";  // Set state back to idle when not hovered
 }

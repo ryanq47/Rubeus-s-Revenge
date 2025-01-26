@@ -60,7 +60,7 @@ if (mouse_check_button(mb_left)) {  // Check if the left mouse button is held
         // Adjust damage (if needed)
         //_inst.damage *= damage;
 
-        alarm[0] = 15;  // Reset the alarm timer
+        alarm[0] = 5;  // Reset the alarm timer
     }
 }
 
