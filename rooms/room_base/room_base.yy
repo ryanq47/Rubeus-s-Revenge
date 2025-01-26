@@ -8,7 +8,6 @@
   "instanceCreationOrder":[
     {"name":"inst_336E468F","path":"rooms/room_base/room_base.yy",},
     {"name":"inst_5CA0CF74","path":"rooms/room_base/room_base.yy",},
-    {"name":"inst_191AC699","path":"rooms/room_base/room_base.yy",},
     {"name":"inst_6B7544A8","path":"rooms/room_base/room_base.yy",},
   ],
   "isDnd":false,
@@ -17,9 +16,8 @@
           1,8,-30,12,2,4,10,-30,0,2,5,10,-30,0,2,5,10,-15,0,-13,-2147483648,-2,0,2,5,10,-15,0,-13,-2147483648,
           -2,0,2,5,10,-15,0,-13,-2147483648,-2,0,2,5,10,-15,0,-13,-2147483648,-2,0,2,5,10,-15,0,-13,-2147483648,
           -2,0,2,5,10,-15,0,-13,-2147483648,-2,0,4,5,10,0,0,-26,-2147483648,-2,0,4,5,10,0,0,-26,-2147483648,-2,
-          0,4,5,10,0,0,-26,-2147483648,-2,0,4,5,10,0,0,-26,-2147483648,-2,0,4,5,10,0,0,-26,-2147483648,-2,0,4,
-          5,10,0,0,-26,-2147483648,-2,0,2,5,10,-30,0,2,5,10,-30,0,2,5,2,-30,3,1,1,
-        ],"TileDataFormat":1,},"tilesetId":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
+          0,4,5,10,0,0,-26,-2147483648,-2,0,1,5,-192,-2147483648,
+        ],"TileDataFormat":1,},"tilesetId":null,"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRTileLayer":"","%Name":"room_border","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"room_border","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":0,"SerialiseWidth":0,"TileSerialiseData":[],},"tilesetId":null,"userdefinedDepth":false,"visible":false,"x":0,"y":0,},
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":200,"effectEnabled":true,"effectType":null,"gridX":10,"gridY":10,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v1","%Name":"inst_6B7544A8","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6B7544A8","objectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":180.0,"y":80.0,},
