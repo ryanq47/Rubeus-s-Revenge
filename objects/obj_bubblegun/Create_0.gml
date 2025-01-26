@@ -3,7 +3,7 @@ facing = point_direction(x, y, mouse_x, mouse_y); // Set facing direction toward
 image_angle = facing; // Rotate the projectile based on facing direction
 
 projectile_speed = 10;
-projectile_damage = 10;
+projectile_damage = 15;
 
 //for collision:
 // Collision with enemy

@@ -14,7 +14,7 @@ sprite_index = choose(spr_enemy_dirty_bubble, spr_enemy_germ_idle)
 // [X] add a wander option?
 
 // on collision with player...
-max_hp = 20
-hp = 20;
-damage = 1;
+max_hp = 200
+hp = 200;
+damage = .25;
 move_speed = 0.5;
