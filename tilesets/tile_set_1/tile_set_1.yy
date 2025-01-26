@@ -1,6 +1,6 @@
 {
   "$GMTileSet":"v1",
-  "%Name":"TileSet1",
+  "%Name":"tile_set_1",
   "autoTileSets":[
     {"$GMAutoTileSet":"","%Name":"autotile_1","closed_edge":false,"name":"autotile_1","resourceType":"GMAutoTileSet","resourceVersion":"2.0","tiles":[15,1,2,3,4,5,6,7,8,9,10,11,12,13,14,0,],},
   ],
@@ -9,7 +9,7 @@
     "SerialiseWidth":0,
     "TileSerialiseData":[],
   },
-  "name":"TileSet1",
+  "name":"tile_set_1",
   "out_columns":4,
   "out_tilehborder":2,
   "out_tilevborder":2,
