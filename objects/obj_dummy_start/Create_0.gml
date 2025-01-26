@@ -1,5 +1,5 @@
 // Config
-global.tileset_duplicates = 1;
+global.tileset_duplicates = 3;
 global.tileset_total = 3;
 
 randomise();

@@ -83,5 +83,6 @@ if (keyboard_check(vk_space)) {  // Check if the space key is held
     }
 }
 
-global.player_health = hp;
+if(variable_instance_exists(id, "hp"))
+	global.player_health = hp;
 

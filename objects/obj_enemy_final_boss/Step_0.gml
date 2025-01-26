@@ -36,7 +36,7 @@ else {
 }
 
 // Move the object, and stop if it collides with anything in the array (change to [obj_enemy_base, tilemap])
-move_and_collide(_hor * move_speed, _ver * move_speed, [obj_enemy_base, tilemap]);
+move_and_collide(_hor * move_speed, _ver * move_speed, [obj_enemy_base, global.Tiles_1]);
 // ===========
 //Flame Gun
 // ===========
