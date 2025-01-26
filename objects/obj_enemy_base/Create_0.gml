@@ -3,7 +3,7 @@ target_x = x;
 target_y = y;
 
 
-tilemap = layer_tilemap_get_id("room_border");
+
 //current probs:
 
 
@@ -17,4 +17,4 @@ tilemap = layer_tilemap_get_id("room_border");
 max_hp = 20
 hp = 20;
 damage = 1;
-move_speed = .5;
+move_speed = 0.5;
