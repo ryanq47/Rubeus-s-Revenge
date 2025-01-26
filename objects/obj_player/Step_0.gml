@@ -72,7 +72,7 @@ if (keyboard_check(vk_space)) {  // Check if the space key is held
         // Create an object at the player's position
         var _inst = instance_create_depth(x, y, depth, obj_player.player_weapon);
 
-        // Scale bubbles down
+        // Scale bubbles downs
         _inst.image_xscale = 0.45;
         _inst.image_yscale = 0.45;
 
@@ -83,6 +83,7 @@ if (keyboard_check(vk_space)) {  // Check if the space key is held
     }
 }
 
-if(variable_instance_exists(id, "hp"))
-	global.player_health = hp;
+if(variable_instance_exists(id, "hp")) {
+	global.player_health = obj_player.hp;
+}
 
