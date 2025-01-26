@@ -5,9 +5,8 @@ if (mouse_x >= x && mouse_x <= x + button_width && mouse_y >= y && mouse_y <= y 
     button_state = "hover";  // Change state to hover
     if (mouse_check_button_pressed(mb_left)) {
         button_state = "pressed";  // Change state to pressed when clicked
-        // Perform the button action (for example, go to another room)
-        //show_message("PRESSED");
-        //doesn't go to room??
+        //shut off music at game start
+        audio_stop_all();
         room_goto(set_you_died);  // Replace with your action
     }
 } else {
