@@ -57,6 +57,7 @@
     {"id":{"name":"spr_bubblegun_bullet_explosion","path":"sprites/spr_bubblegun_bullet_explosion/spr_bubblegun_bullet_explosion.yy",},},
     {"id":{"name":"spr_bubblegun_bullet","path":"sprites/spr_bubblegun_bullet/spr_bubblegun_bullet.yy",},},
     {"id":{"name":"spr_enemy_dirty_bubble","path":"sprites/spr_enemy_dirty_bubble/spr_enemy_dirty_bubble.yy",},},
+    {"id":{"name":"spr_enemy_final_boss_cerberus","path":"sprites/spr_enemy_final_boss_cerberus/spr_enemy_final_boss_cerberus.yy",},},
     {"id":{"name":"spr_enemy_final_boss_gun","path":"sprites/spr_enemy_final_boss_gun/spr_enemy_final_boss_gun.yy",},},
     {"id":{"name":"spr_enemy_final_boss","path":"sprites/spr_enemy_final_boss/spr_enemy_final_boss.yy",},},
     {"id":{"name":"spr_enemy_germ_idle","path":"sprites/spr_enemy_germ_idle/spr_enemy_germ_idle.yy",},},
