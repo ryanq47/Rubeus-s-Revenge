@@ -20,3 +20,5 @@ damage = 25;
 
 //Alarms
 alarm[2] = 120 //set alarm for flame gun
+alarm[3] = 360 //set alarm for rapid flame gun
+move_speed = .1;

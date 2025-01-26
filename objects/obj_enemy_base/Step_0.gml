@@ -3,7 +3,7 @@ var _hor = clamp(target_x - x, -1, 1);
 var _ver = clamp(target_y - y, -1, 1);
 
 // Default move speed
-var move_speed = 0.5;
+//var move_speed = 0.5;
 
 // And randomly change direction every 60 steps (or adjust this value)
 if (random(1) < 0.05) {
