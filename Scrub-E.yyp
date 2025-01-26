@@ -115,6 +115,7 @@
     {"id":{"name":"tile_set_1","path":"tilesets/tile_set_1/tile_set_1.yy",},},
     {"id":{"name":"tile_set_2","path":"tilesets/tile_set_2/tile_set_2.yy",},},
     {"id":{"name":"tile_set_neon","path":"tilesets/tile_set_neon/tile_set_neon.yy",},},
+    {"id":{"name":"TileSet5","path":"tilesets/TileSet5/TileSet5.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
