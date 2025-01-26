@@ -66,7 +66,7 @@ if (alarm[3] <= 60 ) {
         for (var i = 0; i < 3; i += 1) {
             
         
-            var _inst = instance_create_depth(x-50, y - (i * 25), depth, obj_enemy_testing); //obj_weapon_sword
+            var _inst = instance_create_depth(x-50, y, depth, obj_enemy_testing); //obj_weapon_sword
         
             _inst.image_xscale = 0.5;
             _inst.image_yscale = 0.5;
