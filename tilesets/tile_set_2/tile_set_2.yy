@@ -2,7 +2,7 @@
   "$GMTileSet":"v1",
   "%Name":"tile_set_2",
   "autoTileSets":[
-    {"$GMAutoTileSet":"","%Name":"autotile_1","closed_edge":true,"name":"autotile_1","resourceType":"GMAutoTileSet","resourceVersion":"2.0","tiles":[15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,0,],},
+    {"$GMAutoTileSet":"","%Name":"autotile_1","closed_edge":false,"name":"autotile_1","resourceType":"GMAutoTileSet","resourceVersion":"2.0","tiles":[15,1,2,3,4,5,6,7,8,9,10,11,12,13,14,0,],},
   ],
   "macroPageTiles":{
     "SerialiseHeight":0,

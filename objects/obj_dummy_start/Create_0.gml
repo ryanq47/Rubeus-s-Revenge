@@ -29,4 +29,3 @@ global.background_sprites = [
 	spr_background_1,
 	spr_background_2
 ];
-
