@@ -4,6 +4,7 @@ global.tileset_total = 3;
 
 randomise();
 global.current_level = 0;
+global.player_health = 100;
 
 global.tile_sets = [
 	tile_set_0,

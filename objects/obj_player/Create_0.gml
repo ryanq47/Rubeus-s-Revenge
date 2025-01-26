@@ -11,6 +11,6 @@ var background = layer_background_get_id(background_layer_id);
 layer_background_sprite(background, global.background_sprites[idx]);
 
 max_hp = 100;
-hp = 100;
+hp = global.player_health;
 
 alarm[1] = 60;

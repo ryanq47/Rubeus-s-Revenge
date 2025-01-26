@@ -83,5 +83,5 @@ if (keyboard_check(vk_space)) {  // Check if the space key is held
     }
 }
 
-
+global.player_health = hp;
 
