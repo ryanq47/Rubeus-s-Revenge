@@ -3,7 +3,7 @@ target_x = x;
 target_y = y;
 
 
-tilemap = layer_tilemap_get_id("room_border");
+Tiles_1 = layer_tilemap_get_id("Tiles_1");
 //current probs:
 
 

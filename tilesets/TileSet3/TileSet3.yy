@@ -1,16 +1,14 @@
 {
   "$GMTileSet":"v1",
-  "%Name":"TileSet1",
-  "autoTileSets":[
-    {"$GMAutoTileSet":"","%Name":"autotile_1","closed_edge":false,"name":"autotile_1","resourceType":"GMAutoTileSet","resourceVersion":"2.0","tiles":[15,1,2,3,4,5,6,7,8,9,10,11,12,13,14,0,],},
-  ],
+  "%Name":"TileSet3",
+  "autoTileSets":[],
   "macroPageTiles":{
     "SerialiseHeight":0,
     "SerialiseWidth":0,
     "TileSerialiseData":[],
   },
-  "name":"TileSet1",
-  "out_columns":2,
+  "name":"TileSet3",
+  "out_columns":0,
   "out_tilehborder":2,
   "out_tilevborder":2,
   "parent":{
@@ -19,10 +17,7 @@
   },
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
-  "spriteId":{
-    "name":"spr_bubblegun_area_bullet",
-    "path":"sprites/spr_bubblegun_area_bullet/spr_bubblegun_area_bullet.yy",
-  },
+  "spriteId":null,
   "spriteNoExport":false,
   "textureGroupId":{
     "name":"Default",
@@ -36,5 +31,5 @@
   "tileWidth":16,
   "tilexoff":0,
   "tileyoff":0,
-  "tile_count":4,
+  "tile_count":0,
 }
