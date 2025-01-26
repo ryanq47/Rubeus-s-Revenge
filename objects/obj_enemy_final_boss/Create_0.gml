@@ -1,3 +1,6 @@
+audio_stop_all();
+audio_play_sound(music_boss_fight, 10, true);
+
 //vars for tracknig target
 target_x = x;
 target_y = y;
