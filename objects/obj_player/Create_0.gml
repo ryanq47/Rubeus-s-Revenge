@@ -1,4 +1,4 @@
-move_speed = 1;
+move_speed = 2;
 //tilemap
 damage = 1;
 
