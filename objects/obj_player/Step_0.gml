@@ -40,53 +40,46 @@ if (_hor !=0 or _ver !=0){
 //todo:
 // Fix Collision Bug where it's colliding with itself
 
-if ( mouse_check_button_pressed(mb_left)) {
+if (mouse_check_button(mb_left)) {  // Check if the left mouse button is held
     obj_player.player_weapon = obj_bubblegun;
 
-
-    if (alarm[0] < 0) {
+    if (alarm[0] < 0) {  
         // Set the animation speed to 0.5 (slows down the animation)
         sprite_index = spr_player_idle_shooting;
-        
+
         // Create an object at the player's position
-        var _inst = instance_create_depth(x, y, depth, obj_player.player_weapon); //obj_weapon_sword
+        var _inst = instance_create_depth(x, y, depth, obj_player.player_weapon);
 
         // Scale bubbles down
         _inst.image_xscale = 0.35;
         _inst.image_yscale = 0.35;
-        
+
         // Set the bubble object's direction towards the mouse
         _inst.image_angle = point_direction(x, y, mouse_x, mouse_y);
-    
+
         // Adjust damage (if needed)
-        //_inst.damage *= damage; 
+        //_inst.damage *= damage;
 
-        alarm[0] = 15;
-        
-        
+        alarm[0] = 15;  // Reset the alarm timer
     }
-
-    
 }
 
 
-
-if (keyboard_check_pressed(vk_space)) {
-
+if (keyboard_check(vk_space)) {  // Check if the space key is held
     if (alarm[0] < 0) {
         obj_player.player_weapon = obj_bubblegun_area;
 
-        
         // Create an object at the player's position
-        var _inst = instance_create_depth(x, y, depth, obj_player.player_weapon); //obj_weapon_sword
+        var _inst = instance_create_depth(x, y, depth, obj_player.player_weapon);
+
         // Scale bubbles down
         _inst.image_xscale = 0.45;
         _inst.image_yscale = 0.45;
-        
+
         _inst.image_angle = point_direction(x, y, mouse_x, mouse_y);
         _inst.speed = 1.25;
-        
-        alarm[0] = 15;
+
+        alarm[0] = 15;  // Reset the alarm timer
     }
 }
 
