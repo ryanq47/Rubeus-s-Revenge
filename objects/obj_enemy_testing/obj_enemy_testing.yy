@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_enemy_germ_idle",
-    "path":"sprites/spr_enemy_germ_idle/spr_enemy_germ_idle.yy",
+    "name":"spr_enemy_dirty_bubble",
+    "path":"sprites/spr_enemy_dirty_bubble/spr_enemy_dirty_bubble.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -51,6 +51,7 @@
     {"id":{"name":"spr_bubblegun_area_bullet","path":"sprites/spr_bubblegun_area_bullet/spr_bubblegun_area_bullet.yy",},},
     {"id":{"name":"spr_bubblegun_bullet_explosion","path":"sprites/spr_bubblegun_bullet_explosion/spr_bubblegun_bullet_explosion.yy",},},
     {"id":{"name":"spr_bubblegun_bullet","path":"sprites/spr_bubblegun_bullet/spr_bubblegun_bullet.yy",},},
+    {"id":{"name":"spr_enemy_dirty_bubble","path":"sprites/spr_enemy_dirty_bubble/spr_enemy_dirty_bubble.yy",},},
     {"id":{"name":"spr_enemy_germ_idle","path":"sprites/spr_enemy_germ_idle/spr_enemy_germ_idle.yy",},},
     {"id":{"name":"spr_floor_wood","path":"sprites/spr_floor_wood/spr_floor_wood.yy",},},
     {"id":{"name":"spr_misc_bubbles","path":"sprites/spr_misc_bubbles/spr_misc_bubbles.yy",},},
