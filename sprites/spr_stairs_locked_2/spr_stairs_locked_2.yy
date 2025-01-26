@@ -2,9 +2,9 @@
   "$GMSprite":"",
   "%Name":"spr_stairs_locked_2",
   "bboxMode":0,
-  "bbox_bottom":20,
-  "bbox_left":2,
-  "bbox_right":23,
+  "bbox_bottom":0,
+  "bbox_left":0,
+  "bbox_right":0,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -16,7 +16,7 @@
   ],
   "gridX":0,
   "gridY":0,
-  "height":24,
+  "height":1,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"4742e656-dbe9-4f7d-b7a4-bbbbc98b931c","blendMode":0,"displayName":"default","isLocked":false,"name":"4742e656-dbe9-4f7d-b7a4-bbbbc98b931c","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
@@ -86,5 +86,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":24,
+  "width":1,
 }
