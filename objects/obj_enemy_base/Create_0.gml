@@ -2,7 +2,7 @@
 target_x = x;
 target_y = y;
 
-
+sprite_index = choose(spr_enemy_dirty_bubble, spr_enemy_germ_idle);
 
 //current probs:
 
