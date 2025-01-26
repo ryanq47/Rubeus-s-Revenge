@@ -1,5 +1,5 @@
 // =======================
-// Collision for bubblegun
+// Collision for bubblegun area
 // =======================
 
 //bug: projectile re-hits enemy. Maybe keep as feature, OR one hit per second?

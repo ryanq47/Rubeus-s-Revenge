@@ -1,6 +1,8 @@
 // ==================
 //Movement
 // ==================
+//every step 
+sprite_index = spr_player_idle;
 
 // 1 when D, -1 when A is held
 var _hor = keyboard_check(ord("D")) - keyboard_check(ord("A"))
